@@ -3,7 +3,7 @@ jobs:
   build-node:
     runs-on: ubuntu-latest
     container: node:16
-    step:
+    steps:
       - run: node --version
       - run: npm --version
       - uses: actions/checkout@v3
